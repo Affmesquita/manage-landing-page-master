@@ -25,17 +25,45 @@
     src: url(/fonte/Roboto-Bold.ttf);
 }
 
+:root {
+    --cor1: #f5f1ee;
+    --cor2: #1e1f2a;
+    --cor3: #f26641;
+    --cor4: #d28164;
+    --cor5: #74849c;
+    --cor6: #283459;
 
+    font-family: Roboto-Medium;
+    font-family: Roboto-Light;
+    font-family: Roboto-Bold;
+}
 
 /* MAIN */
 
 
 
-main {
+body {
     width: 100%;
     height: 100%;
 }
 
+.btn {
+    width: 160px;
+    height: 50px;
+
+    background-color: #f26641;
+
+    border-radius: 40px;
+    border: transparent;
+
+    font-family: Roboto-Bold;
+    font-size: 1rem;
+    color: white;
+
+    box-shadow: 0px 10px 6px #d281644b;
+
+    cursor: pointer;
+}
 
 
 /* NAV */
@@ -53,8 +81,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    background-color: rgb(173, 173, 173);
 }
 
 nav img {
@@ -68,5 +94,104 @@ nav ul {
 }
 
 nav li {
-    font: 0.5rem;
+    font-size: 1rem;
+    color: #283459;
 }
+
+/* BANNER */
+
+
+
+.banner-conteiner {
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 50px 80px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.banner-txt {
+    width: 500px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-left: 40px;
+}
+.banner-txt h1 {
+    font-family: Roboto-Bold;
+    font-size: 3.5rem;
+    color: #283459;
+}
+.banner-txt p {
+    font-family: Roboto-Medium;
+    color: #BABBBF;
+    line-height: 25px;
+}
+
+.banner-img img {
+    width: 550px;
+}
+
+
+
+/* DESCRIPTION */
+
+
+
+.description-conteiner {
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0px 80px;
+}
+
+.description-txt {
+    width: 500px;
+    margin-left: 40px;
+}
+.description-txt h1 {
+    font-family: Roboto-Bold;
+    font-size: 2.5rem;
+    color: #283459;
+    margin-bottom: 30px;
+}
+.description-txt p {
+    font-family: Roboto-Medium;
+    color: #BABBBF;
+    line-height: 25px;
+    width: 300px;
+}
+
+.cards-conteiner {
+    width: 550px;
+}
+.description-card {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.description-card span {
+    width: 50px;
+    height: 50px;
+
+    background-color: #f26641;
+}
+.description-card h1 {
+    
+}
+
+
+
+
+
