@@ -154,6 +154,8 @@ nav li {
     justify-content: space-around;
 
     padding: 0px 80px;
+
+    margin-bottom: 18px;
 }
 
 .description-txt {
@@ -178,20 +180,107 @@ nav li {
 }
 .description-card {
     width: 600px;
+    height: 200px;
+
     display: flex;
-    justify-content: space-between;
 }
 .description-card span {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 30px;
+
+    padding: 7px 13px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    margin-right: 20px;
 
     background-color: #f26641;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .description-card h1 {
+    font-family: Roboto-Bold;
+
+    font-size: 1rem;
+
+    color: #283459;
     
+    margin-bottom: 30px;
+}
+.description-card p {
+    width: 300px;
+
+    font-family: Roboto-Medium;
+
+    color: #BABBBF;
+
+    line-height: 20px;
 }
 
 
+
+/* PLUBLIC COMENTS */
+
+
+
+.public-conteiner {
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+#public-card-conteiner-logo {
+    color: #283459;
+    font-size: 2rem;
+    margin: 70px 0px;
+}
+.public-card-conteiner {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+}
+
+.public-card {
+    width: 600px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.public-card img {
+    width: 60px;
+}
+.public-card h1 {
+    font-family: Roboto-Bold;
+
+    font-size: 1rem;
+
+    color: #283459;
+
+    margin: 20px 0px;
+}
+.public-card p {
+    width: 300px;
+
+    font-family: Roboto-Medium;
+
+    color: #BABBBF;
+
+    line-height: 20px;
+
+    text-align: center;
+}
 
 
 
