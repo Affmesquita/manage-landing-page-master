@@ -2,4 +2,33 @@
 
 @media (max-width: 768px) {
 
-}
+    header {
+        padding: 50px;
+        margin-bottom: 30px;
+    }
+    nav {
+        display: none;
+    }
+
+    #hamburguer-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #close-icon {
+      display: none;
+    }
+
+    nav.show {
+        width: 80%;
+        height: 60%;
+        background-color: tomato;
+        display: block;
+    }
+
+    .banner-conteiner {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+  }
